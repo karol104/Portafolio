@@ -1,0 +1,501 @@
+body {
+    font-family: 'Century Gothic Regular';
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display:flex;
+    justify-content: center;
+}
+
+.contenedor {
+    display: flex;
+    width: 70%;
+    border: 1px solid rgb(190, 192, 192);
+    margin: 50px auto;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.div1{
+    padding: 30px;
+}
+
+.div_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+}
+
+.contact-item img {
+    width: 30px;
+    height: auto;
+}
+
+.contact-item p {
+    margin: 4px;
+}
+
+
+.img1-1 {
+    border-radius: 50%;
+    border: 5px solid black;
+    width: 220px;
+    height: 220px;
+    display: block;
+    margin-bottom: 15px;
+    margin: 0 auto 15px auto;
+    margin-top: 15px;
+}
+
+.div1 h1 {
+    text-align: left;
+    margin-top: 20px;
+    color: black;
+    font-size: 24px;
+}
+
+.div_2 {
+    margin-bottom: 0px;
+    color: black;
+    margin-right: 10px;
+}
+
+.div_2 p {
+    margin: 3px;
+}
+
+.linea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    gap: 5px;
+}
+
+.texto {
+    font-size: 20px;
+    text-align: left;
+    min-width: 100px;
+}
+
+.puntos {
+    font-size: 30px;
+    font-weight: bold;
+    white-space: nowrap;
+    flex-grow: 1;
+    margin-top: 6px;
+}
+
+.puntverdes {
+    font-weight: 900;
+    color: #99C34B;
+}
+
+.Hobbies {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    max-width: 90px;
+    padding-left: 76px;
+   
+}
+
+.Hobbies img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0px;
+}
+
+.hobbies {
+    margin: 0px;
+}
+
+.contenedordiv2 {
+    background-color: #2D2D2B;
+    width: 100%;
+    color: white;
+}
+
+.div2 {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.text h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 53px;
+    color: #99C34B;
+    margin-top: 10px;
+    padding-left: 30px;
+    margin-bottom: 0px;
+}
+
+.text h1 span {
+    display: block;
+}
+
+.christopher {
+    font-weight: lighter;
+}
+
+.baltimore {
+    font-weight: 900;
+    display: block;
+}
+
+.architect {
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 5px;
+    display: block;
+    margin-left: 30px;
+}
+.text1{
+    margin-top: 55px;
+}
+
+.textos h1 {
+    width: 199px;
+    background-color: #99C34B;
+    padding-left: 30px;
+    color: black;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+.punt1 {
+    display: flex;
+}
+
+.punt1 img {
+    width: 30px;
+    height: 160px;
+    padding-left: 20px;
+}
+
+.punt2 {
+    display: flex;
+}
+
+.punt2 img {
+    width: 30px;
+    height: 280px;
+    margin-top: 29px;
+    padding-left: 20px;
+}
+
+.textos p {
+    font-size: 20px;
+    padding-left: 10px;
+    color: white;
+    margin: 5px 0;
+}
+
+.text1 p {
+    padding-left: 30px;
+}
+
+
+.textos p.te,
+.textos p.tex {
+    font-size: 16px;
+    color: #99C34B;
+    font-weight: 900;
+}
+
+@media (max-width: 935px) {
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div1 {
+        width: auto;    
+    }
+
+    .img1-1 {
+        width: 350px; 
+        height: 350px;
+        margin: 0px auto;
+
+    }
+
+    .div1 h1 {
+        font-size: 35px; 
+        text-align: center;
+        
+    }
+
+    .contact-item p{
+        font-size: 30px;
+    }
+
+    .texto {
+        font-size:30px; 
+    }
+    
+
+    .linea {
+        width: 100%;
+        position: relative;
+    }
+    
+    .puntos {
+        position: absolute;
+        left: 140px; 
+        
+    }
+
+    .Hobbies img {
+        width: 100px; 
+        height: 100px;   
+    }
+    .Hobbies{
+        max-width: 200px;
+        padding-left: 1px;
+    }
+
+    .contenedordiv2 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text h1 {
+        font-size: 55px; 
+        padding-left: 15px;
+    }
+
+    .architect {
+        font-size: 30px;
+        margin: 0px;
+        padding-left: 15px;
+    }
+
+    .textos h1 {
+        width: 230px; 
+        padding-left: 15px;
+        font-size: 30px; 
+    }
+
+    .textos p{
+        font-size: 30px;
+    }
+
+    .punt1 img, .punt2 img{
+        width: 35px; 
+        height: auto;
+        padding-left: 10px;
+    }
+
+    .text1 p {
+        padding-left: 15px;
+    }
+
+
+    .textos p.te,
+    .textos p.tex {
+        font-size: 14px; 
+    }
+}
+
+@media (max-width: 600px) {
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .div1 {
+        width: auto;    
+    }
+
+    .img1-1 {
+        width: 250px; 
+        height: 250px;
+        margin: 0px auto;
+
+    }
+
+    .div1 h1 {
+        font-size: 30px; 
+        text-align: center;
+        
+    }
+
+    .contact-item p{
+        font-size: 23px;
+    }
+
+    .texto {
+        font-size:23px; 
+    }
+
+    .puntos {
+        font-size: 30px; 
+    }
+
+    .Hobbies img {
+        width: 80px; 
+        height: 80px;   
+    }
+    .Hobbies{
+        max-width: 180px;
+        padding-left: 1px;
+    }
+
+    .contenedordiv2 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text h1 {
+        font-size: 50px; 
+        padding-left: 15px;
+    }
+
+    .architect {
+        font-size: 28px;
+        margin: 0px;
+        padding-left: 15px;
+    }
+
+    .textos h1 {
+        width: 230px; 
+        padding-left: 15px;
+        font-size: 28px; 
+    }
+
+    .textos p{
+        font-size: 23px;
+    }
+
+    .punt1 img, .punt2 img{
+        width: 25px; 
+        height: auto;
+        padding-left: 10px;
+    }
+
+    .text1 p {
+        padding-left: 15px;
+    }
+
+
+    .textos p.te,
+    .textos p.tex {
+        font-size: 14px; 
+    }
+}
+
+@media (max-width: 360px) {
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .div1 {
+        width: auto;    
+    }
+
+    .img1-1 {
+        width: 180px; 
+        height: 180px;
+        margin: 0px auto;
+
+    }
+
+    .div1 h1 {
+        font-size: 20px; 
+        text-align: center;
+        
+    }
+
+    .contact-item p{
+        font-size: 15px;
+    }
+
+    .texto {
+        font-size:15px; 
+    }
+
+    .puntos {
+        font-size: 20px; 
+        left: 100px;
+    }
+
+    .Hobbies img {
+        width: 60px; 
+        height: 60px;   
+    }
+    .Hobbies{
+        max-width: 100px;
+        padding-left: 1px;
+    }
+
+    .contenedordiv2 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text h1 {
+        font-size: 40px; 
+        padding-left: 15px;
+    }
+
+    .architect {
+        font-size: 20px;
+        margin: 0px;
+        padding-left: 15px;
+    }
+
+    .textos h1 {
+        width: 130px; 
+        padding-left: 15px;
+        font-size: 20px; 
+    }
+
+    .textos p{
+        font-size: 15px;
+    }
+
+    .punt1 img, .punt2 img{
+        width: 23px; 
+        height: auto;
+        padding-left: 10px;
+    }
+
+    .text1 p {
+        padding-left: 15px;
+    }
+
+
+    .textos p.te,
+    .textos p.tex {
+        font-size: 12px; 
+    }
+}
+
+
+
